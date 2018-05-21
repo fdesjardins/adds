@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/aircraftreport1_0.xsd">
+  <request_index>23959615</request_index>
+  <data_source name="aircraftreports"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>37</time_taken_ms>
+  <data num_results="1000">
+    <AircraftReport>
+      <receipt_time>2018-05-20T22:35:27Z</receipt_time>
+      <observation_time>2018-05-20T22:35:00Z</observation_time>
+      <aircraft_ref>ETD76T</aircraft_ref>
+      <latitude>56.0667</latitude>
+      <longitude>-37.6167</longitude>
+      <altitude_ft_msl>33000</altitude_ft_msl>
+      <temp_c>-48</temp_c>
+      <wind_dir_degrees>289</wind_dir_degrees>
+      <wind_speed_kt>126</wind_speed_kt>
+      <report_type>AIREP</report_type>
+      <raw_text>ARP ETD76T 5604N03737W 2235 F330 5600N03000W 2301 5600N02000W MS48 289/126 KT A6ETH QXT AME 202235 F41A</raw_text>
+    </AircraftReport>
+  </data>
+</response>

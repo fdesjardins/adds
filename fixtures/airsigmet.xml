@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.1" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/airsigmet1_1.xsd">
+  <request_index>248677263</request_index>
+  <data_source name="airsigmets"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>847</time_taken_ms>
+  <data num_results="156">
+    <AIRSIGMET>
+      <raw_text>WAUS45 KKCI 202045 SLCT WA 202045 AIRMET TANGO UPDT 3 FOR TURB VALID UNTIL 210300 AIRMET TURB...NM FROM 50S DVC TO CIM TO 30SSW TXO TO INK TO ELP TO 50SSW DMN TO 50NNE SSO TO 50S DVC MOD TURB BLW 160. CONDS CONTG BYD 03Z THRU 09Z.</raw_text>
+      <valid_time_from>2018-05-20T20:45:00Z</valid_time_from>
+      <valid_time_to>2018-05-21T03:00:00Z</valid_time_to>
+      <altitude min_ft_msl="0" max_ft_msl="16000"/>
+      <hazard type="TURB" severity="MOD"/>
+      <airsigmet_type>AIRMET</airsigmet_type>
+      <area num_points="8">
+        <point>
+          <longitude>-108.93</longitude>
+          <latitude>36.9746</latitude>
+        </point>
+        <point>
+          <longitude>-104.87</longitude>
+          <latitude>36.49</latitude>
+        </point>
+        <point>
+          <longitude>-103.0723</longitude>
+          <latitude>34.035</latitude>
+        </point>
+        <point>
+          <longitude>-103.24</longitude>
+          <latitude>31.87</latitude>
+        </point>
+        <point>
+          <longitude>-106.28</longitude>
+          <latitude>31.82</latitude>
+        </point>
+        <point>
+          <longitude>-107.975</longitude>
+          <latitude>31.5076</latitude>
+        </point>
+        <point>
+          <longitude>-108.8786</longitude>
+          <latitude>33.0413</latitude>
+        </point>
+        <point>
+          <longitude>-108.93</longitude>
+          <latitude>36.9746</latitude>
+        </point>
+      </area>
+    </AIRSIGMET>
+  </data>
+</response>

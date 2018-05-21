@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://weather.aero/schema/station1_0.xsd">
+  <request_index>248709278</request_index>
+  <data_source name="stations"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>3</time_taken_ms>
+  <data num_results="3">
+    <Station>
+      <station_id>KDEN</station_id>
+      <wmo_id>72565</wmo_id>
+      <latitude>39.85</latitude>
+      <longitude>-104.65</longitude>
+      <elevation_m>1640.0</elevation_m>
+      <site>DENVER (DIA)</site>
+      <state>CO</state>
+      <country>US</country>
+      <site_type>
+        <METAR/>
+        <TAF/>
+      </site_type>
+    </Station>
+    <Station>
+      <station_id>KSEA</station_id>
+      <wmo_id>72793</wmo_id>
+      <latitude>47.45</latitude>
+      <longitude>-122.32</longitude>
+      <elevation_m>136.0</elevation_m>
+      <site>SEATTLE/METRO</site>
+      <state>WA</state>
+      <country>US</country>
+      <site_type>
+        <METAR/>
+        <TAF/>
+      </site_type>
+    </Station>
+    <Station>
+      <station_id>PHNL</station_id>
+      <wmo_id>91182</wmo_id>
+      <latitude>21.33</latitude>
+      <longitude>-157.92</longitude>
+      <elevation_m>4.0</elevation_m>
+      <site>HONOLULU</site>
+      <state>HI</state>
+      <country>US</country>
+      <site_type>
+        <METAR/>
+        <TAF/>
+      </site_type>
+    </Station>
+  </data>
+</response>

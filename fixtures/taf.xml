@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/taf1_2.xsd">
+  <request_index>248539093</request_index>
+  <data_source name="tafs"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>195</time_taken_ms>
+  <data num_results="82">
+    <TAF>
+      <raw_text>PHNL 202101Z 2021/2124 06017G26KT P6SM FEW025 FEW050 FM210600 06011KT P6SM FEW025 SCT050 FM212000 06015G23KT P6SM FEW025 FEW050</raw_text>
+      <station_id>PHNL</station_id>
+      <issue_time>2018-05-20T21:01:00Z</issue_time>
+      <bulletin_time>2018-05-20T21:01:00Z</bulletin_time>
+      <valid_time_from>2018-05-20T21:00:00Z</valid_time_from>
+      <valid_time_to>2018-05-22T00:00:00Z</valid_time_to>
+      <remarks>AMD</remarks>
+      <latitude>21.33</latitude>
+      <longitude>-157.92</longitude>
+      <elevation_m>4.0</elevation_m>
+      <forecast>
+        <fcst_time_from>2018-05-20T21:00:00Z</fcst_time_from>
+        <fcst_time_to>2018-05-21T06:00:00Z</fcst_time_to>
+        <wind_dir_degrees>60</wind_dir_degrees>
+        <wind_speed_kt>17</wind_speed_kt>
+        <wind_gust_kt>26</wind_gust_kt>
+        <visibility_statute_mi>6.21</visibility_statute_mi>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="2500"/>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="5000"/>
+      </forecast>
+      <forecast>
+        <fcst_time_from>2018-05-21T06:00:00Z</fcst_time_from>
+        <fcst_time_to>2018-05-21T20:00:00Z</fcst_time_to>
+        <change_indicator>FM</change_indicator>
+        <wind_dir_degrees>60</wind_dir_degrees>
+        <wind_speed_kt>11</wind_speed_kt>
+        <visibility_statute_mi>6.21</visibility_statute_mi>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="2500"/>
+        <sky_condition sky_cover="SCT" cloud_base_ft_agl="5000"/>
+      </forecast>
+      <forecast>
+        <fcst_time_from>2018-05-21T20:00:00Z</fcst_time_from>
+        <fcst_time_to>2018-05-22T00:00:00Z</fcst_time_to>
+        <change_indicator>FM</change_indicator>
+        <wind_dir_degrees>60</wind_dir_degrees>
+        <wind_speed_kt>15</wind_speed_kt>
+        <wind_gust_kt>23</wind_gust_kt>
+        <visibility_statute_mi>6.21</visibility_statute_mi>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="2500"/>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="5000"/>
+      </forecast>
+    </TAF>
+  </data>
+</response>

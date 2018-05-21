@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>294676036</request_index>
+  <data_source name="metars"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>3</time_taken_ms>
+  <data num_results="6">
+    <METAR>
+      <raw_text>KDEN 202153Z 09006KT 10SM OVC035 13/06 A3014 RMK AO2 SLP176 T01330056</raw_text>
+      <station_id>KDEN</station_id>
+      <observation_time>2018-05-20T21:53:00Z</observation_time>
+      <latitude>39.85</latitude>
+      <longitude>-104.65</longitude>
+      <temp_c>13.3</temp_c>
+      <dewpoint_c>5.6</dewpoint_c>
+      <wind_dir_degrees>90</wind_dir_degrees>
+      <wind_speed_kt>6</wind_speed_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>30.138779</altim_in_hg>
+      <sea_level_pressure_mb>1017.6</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="3500"/>
+      <flight_category>VFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>1640.0</elevation_m>
+    </METAR>
+  </data>
+</response>

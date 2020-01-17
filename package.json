@@ -8,16 +8,16 @@
     "url": "github.com/fdesjardins"
   },
   "dependencies": {
-    "superagent": "^3.8.3",
+    "superagent": "^5.2.1",
     "xml-reader": "^2.4.3"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.1",
-    "mocha": "^5.2.0",
-    "nock": "^9.2.6",
-    "nyc": "^11.8.0",
-    "standard": "^11.0.1"
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "mocha": "^7.0.0",
+    "nock": "^11.7.2",
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1"
   },
   "engines": {
     "node": ">=7"
@@ -75,6 +75,7 @@
   },
   "repository": "fdesjardins/adds",
   "scripts": {
-    "test": "standard *.js && nyc ./node_modules/.bin/mocha --opts mocha.opts test.js"
+    "eslint": "standard *.js",
+    "test": "standard *.js && nyc mocha test.js"
   }
 }

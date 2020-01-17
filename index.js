@@ -72,7 +72,7 @@ const extractData = element => {
         if (data[field.name].length > 0) {
           data[field.name].push(extractAttributes(field))
         } else {
-          data[field.name] = [ data[field.name], extractAttributes(field) ]
+          data[field.name] = [data[field.name], extractAttributes(field)]
         }
       } else {
         data[field.name] = extractAttributes(field)
@@ -91,7 +91,7 @@ const extractData = element => {
         if (data[field.name].length > 0) {
           data[field.name].push(extractData(field))
         } else {
-          data[field.name] = [ data[field.name], extractData(field) ]
+          data[field.name] = [data[field.name], extractData(field)]
         }
       } else {
         data[field.name] = extractData(field)

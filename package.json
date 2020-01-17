@@ -1,7 +1,7 @@
 {
   "name": "adds",
   "description": "Javascript client for https://www.aviationweather.gov/ text data server",
-  "version": "1.2.0",
+  "version": "1.2.8",
   "author": {
     "name": "Forrest Desjardins",
     "email": "desjardinsfg@gmail.com",

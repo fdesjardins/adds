@@ -105,6 +105,7 @@ const extractData = element => {
 const fetch = async (options) => {
   try {
     const response = await superagent.get(ADDS_API_URI)
+      .set("user-agent", "node-superagent")
       .query({
         requestType: 'retrieve',
         format: 'xml',
